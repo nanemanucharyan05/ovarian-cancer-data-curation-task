@@ -1,0 +1,28 @@
+{
+    "dataset_name": "Ovarian Universal Dataset",
+    "description": "Integrated patient-level dataset combining HGSOC TCGA clinical and TCGA-OV imaging metadata.",
+    "sources": [
+        {
+            "name": "HGSOC TCGA GDC Clinical",
+            "url": "https://www.cbioportal.org/study/clinicalData?id=hgsoc_tcga_gdc",
+            "license": "Open access",
+            "citation": "TCGA Research Network: https://www.cancer.gov/tcga"
+        },
+        {
+            "name": "TCGA-OV Imaging",
+            "url": "https://www.cancerimagingarchive.net/collection/tcga-ov/",
+            "license": "CC BY 3.0",
+            "citation": "Clark K et al. The Cancer Imaging Archive (TCIA). Nat Rev Cancer 2013."
+        }
+    ],
+    "processing_steps": [
+        "Loaded raw clinical and imaging datasets",
+        "Standardized column names to lowercase with underscores",
+        "Dropped duplicate rows",
+        "Created patient_id_canonical key for linking",
+        "Merged clinical and imaging datasets using inner join on patient_id_canonical",
+        "Saved final dataset as ovarian_universal.csv"
+    ],
+    "date_created": "2026-03-01",
+    "version": "v1.0"
+}

@@ -1,0 +1,648 @@
+[
+    {
+        "column_name": "study_id_clinical",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "hgsoc_tcga_gdc"
+        ],
+        "provenance": "clinical"
+    },
+    {
+        "column_name": "patient_id_clinical",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "clinical"
+    },
+    {
+        "column_name": "sample_id",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "diagnosis_age",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "biopsy_site",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Ovary"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "cancer_type",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "High-Grade Serous Ovarian Cancer"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "cancer_type_detailed",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "High-Grade Serous Ovarian Cancer"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "last_communication_contact_from_initial_pathologic_diagnosis_date",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "birth_from_initial_pathologic_diagnosis_date",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "death_from_initial_pathologic_diagnosis_date",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "disease_free_(months)",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "disease_free_status",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "1:Recurred/Progressed",
+            "0:DiseaseFree"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "disease_type",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Serous Cystadenocarcinoma"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "ethnicity_category",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "NOT HISPANIC OR LATINO",
+            "HISPANIC OR LATINO"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "figo_stage",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Stage IIC",
+            "Stage IIIC",
+            "Stage IIIA",
+            "Stage IV",
+            "Stage IC",
+            "Stage IIB",
+            "Stage IIA",
+            "Stage IIIB",
+            "Stage IB"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "fraction_genome_altered",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "icd_10_classification",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "C56.9"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "is_ffpe",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "NO"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "morphology",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "8441/3",
+            "8460/3"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "mutation_count",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "oncotree_code",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "HGSOC"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "overall_survival_(months)",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "overall_survival_status",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "1:DECEASED",
+            "0:LIVING"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "other_patient_id",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "other_sample_id",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "primary_diagnosis",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Serous Cystadenocarcinoma"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient_primary_tumor_site",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Ovary"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "prior_malignancy",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            false
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "prior_treatment",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            false
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "project_identifier",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "TCGA-OV"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "project_name",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "High-Grade Serous Ovarian Cancer"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "project_state",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "released"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "race_category",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "WHITE",
+            "NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER",
+            "ASIAN",
+            "BLACK OR AFRICAN AMERICAN",
+            "AMERICAN INDIAN OR ALASKA NATIVE"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "number_of_samples_per_patient",
+        "dtype": "int64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "sample_type",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Primary Tumor",
+            "Recurrent Tumor"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "sample_type_id",
+        "dtype": "int64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "sex",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Female"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "tmb_(nonsynonymous)",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient's_vital_status",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Dead",
+            "Alive"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "year_of_diagnosis",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient_id_canonical",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient_id_imaging",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "imaging"
+    },
+    {
+        "column_name": "patient_name",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient_birth_date",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "patient_sex",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "F"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "ethnic_group",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "W",
+            "C",
+            "2"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "phantom",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "NO"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "species_code",
+        "dtype": "int64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "species_description",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Homo sapiens"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "study_instance_uid",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "study_date",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "study_description",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "admitting_diagnosis_description",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "OTHER GU NEOPLASM NOS",
+            "ABD DISTENTION",
+            "BREAST CA",
+            "5276/1916988-1",
+            "39771/2310585-1",
+            "43464/2717490-1",
+            "7943/2317494-1",
+            "44060/2899324-1",
+            "WEIGHT LOSS ABD PAIN  METFORMI"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "study_id_imaging",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "imaging"
+    },
+    {
+        "column_name": "patient_age",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "longitudinal_temporal_event_type",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "longitudinal_temporal_offset_from_event",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "series_instance_uid",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "project",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "TCGA-OV"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "modality",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "CT",
+            "OT",
+            "MR"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "protocol_name",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "series_date",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "series_description",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "body_part_examined",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "OVARY"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "series_number",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "annotations_flag",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "manufacturer",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "GE MEDICAL SYSTEMS",
+            "TOSHIBA",
+            "Philips",
+            "SIEMENS",
+            "Siemens",
+            "Imatron"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "manufacturer_model_name",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "software_versions",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "image_count",
+        "dtype": "int64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "max_submission_timestamp",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "license_name",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "Creative Commons Attribution 3.0 Unported License"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "license_uri",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "http://creativecommons.org/licenses/by/3.0/"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "collection_uri",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": [
+            "https://doi.org/10.7937/K9/TCIA.2016.NDO1MDFQ"
+        ],
+        "provenance": "universal"
+    },
+    {
+        "column_name": "file_size",
+        "dtype": "int64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "date_released",
+        "dtype": "object",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    },
+    {
+        "column_name": "third_party_analysis",
+        "dtype": "float64",
+        "description": "",
+        "allowed_values": null,
+        "provenance": "universal"
+    }
+]
