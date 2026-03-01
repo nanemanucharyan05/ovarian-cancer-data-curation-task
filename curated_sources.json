@@ -1,0 +1,122 @@
+[
+  {
+    "Dataset Name": "TCGA-OV",
+    "Dataset Landing Page": "https://portal.gdc.cancer.gov/projects/TCGA-OV",
+    "Modality": "Clinical / Tabular",
+    "Size": "608 patients",
+    "Access Method": "Direct download",
+    "License": "Open access",
+    "Descripton": "Clinical data for ovarian cancer patients covering demographics, diagnosis and treatment. Dataset includes 608 patients, 4,222 rows (multiple records per patient), 210 columns",
+    "Identifier System": "Patient-IDs: cases.submitter_id",
+    "Limitations": "Many missing values, Mostly older white American women,  Many columns irrelevant to ovarian cancer",
+    "": ""
+  },
+  {
+    "Dataset Name": "Ovarian Cancer - MSK SPECTRUM (MSK, Nature 2022)",
+    "Dataset Landing Page": "https://www.cbioportal.org/study/clinicalData?id=msk_spectrum_tme_2022",
+    "Modality": "Genomics",
+    "Size": "42 patients",
+    "Access Method": "Direct download",
+    "License": "Open access",
+    "Descripton": "Multi-region, multi-modal profiling of 42 untreated high-grade serous ovarian cancer (HGSOC) tumor/normal pairs.",
+    "Identifier System": "Patient ID / Sample ID",
+    "Limitations": "Small sample; Only HGSOC pairs;",
+    "": ""
+  },
+  {
+    "Dataset Name": "Human Protein Atlas",
+    "Dataset Landing Page": "https://www.proteinatlas.org/search/ovarian+cancer/1",
+    "Modality": "Proteomics / Transcriptomics",
+    "Size": "3819 genes",
+    "Access Method": "Direct download",
+    "License": "Open access",
+    "Descripton": "Protein and gene expression data for 3,819 ovarian cancer-relevant genes.",
+    "Identifier System": "Gene symbols",
+    "Limitations": "No patient-level clinical records; No treatment data",
+    "": ""
+  },
+  {
+    "Dataset Name": "TCGA-OV \\| The Cancer Genome Atlas Ovarian Cancer Collection",
+    "Dataset Landing Page": "https://www.cancerimagingarchive.net/collection/tcga-ov/",
+    "Modality": "Imaging",
+    "Size": "143 subjects",
+    "Access Method": "Requires NBIA Data Retriever",
+    "License": "CC BY 3.0",
+    "Descripton": "DICOM imaging dataset for 143 TCGA-OV patients containing CT and MRI scans.",
+    "Identifier System": "Patient ID / Study Instance UID / Series Instance UID",
+    "Limitations": "No survival, stage or treatment information in this file",
+    "": ""
+  },
+  {
+    "Dataset Name": "TCGA-OV-Proteogenomics \\| Integration of CT-based Qualitative and Radiomic Features with  Proteomic Variables in Patients with High-Grade Serous Ovarian Cancer: An Exploratory Analysis",
+    "Dataset Landing Page": "https://www.cancerimagingarchive.net/analysis-result/tcga-ov-proteogenomics/",
+    "Modality": "Imaging / Proteogenomics",
+    "Size": "20 subjects",
+    "Access Method": "Requires NBIA Data Retriever",
+    "License": "CC BY 3.0",
+    "Descripton": "Study of 20 HGSOC patients from TCGA-OV; contains contrast-enhanced CT images.",
+    "Identifier System": "TCGA barcodes",
+    "Limitations": "Very small cohort (n=20); Findings not generalizable due to small sample size",
+    "": ""
+  },
+  {
+    "Dataset Name": "TCGA-OV-Radiogenomics \\| Imaging Features, and Correlations with Genomic and  Clinical Data from the TCGA Ovarian Radiology Research Group",
+    "Dataset Landing Page": "https://www.cancerimagingarchive.net/analysis-result/tcga-ov-radiogenomics/",
+    "Modality": "Imaging / Radiogenomics",
+    "Size": "93 subjects",
+    "Access Method": "Requires NBIA Data Retriever",
+    "License": "CC BY 3.0",
+    "Descripton": "Retrospective analysis of 93 HGSOC patients with pre-surgical abdominal and pelvic CT scans from TCIA.",
+    "Identifier System": "TCGA barcodes",
+    "Limitations": "Limited to pre-surgical CT only",
+    "": ""
+  },
+  {
+    "Dataset Name": "Ovarian Screening dataset",
+    "Dataset Landing Page": "https://cdas.cancer.gov/datasets/plco/23/",
+    "Modality": "Clinical / Screening",
+    "Size": "151000 records per year of screening",
+    "Access Method": "Requires institutional affiliation",
+    "License": "NCI Data Access Policy",
+    "Descripton": "Ovarian cancer screening dataset containing serial CA-125 blood test results, TVU findings and combined screening outcomes.",
+    "Identifier System": "PLCO ID (plco_id) + Study Year (study_yr)",
+    "Limitations": "No treatment information",
+    "": ""
+  },
+  {
+    "Dataset Name": "Ovarian Diagnostic Procedures dataset",
+    "Dataset Landing Page": "https://cdas.cancer.gov/datasets/plco/23/",
+    "Modality": "Clinical",
+    "Size": "19000 records per procedure",
+    "Access Method": "Requires institutional affiliation",
+    "License": "NCI Data Access Policy",
+    "Descripton": "Contains information about the diagnostic procedures prompted by positive ovarian cancer screen, diagnostic procedures  associated with any ovarian cancers diagnosed during the 13 years of follow-up.",
+    "Identifier System": "PLCO ID (plco_id)",
+    "Limitations": "No treatment information.",
+    "": ""
+  },
+  {
+    "Dataset Name": "Integrated Genomic Analyses of Ovarian Carcinoma",
+    "Dataset Landing Page": "https://gdc.cancer.gov/about-data/publications/ov_2011",
+    "Modality": "Mutations",
+    "Size": "489 patients",
+    "Access Method": "Via direct download using GDC manifest",
+    "License": "Open access",
+    "Descripton": "The dataset includes somatic mutation data, copy number alterations, gene and miRNA expression,  DNA methylation, and clinical outcomes.",
+    "Identifier System": "TCGA barcodes",
+    "Limitations": "Limited histologic diversity; Limited longitudinal clinical data",
+    "": ""
+  },
+  {
+    "Dataset Name": "High-Grade Serous Ovarian Cancer",
+    "Dataset Landing Page": "https://www.cbioportal.org/study/clinicalData?id=hgsoc_tcga_gdc",
+    "Modality": "Clinical / Mutations",
+    "Size": "588 patients",
+    "Access Method": "Direct download",
+    "License": "Open access",
+    "Descripton": "This dataset provides harmonized somatic mutation and clinical summary tables for ovarian cancer cohorts.",
+    "Identifier System": "Patient ID, Sample ID",
+    "Limitations": "Strong cohort skew toward late-stage high-grade serous ovarian cancer",
+    "": ""
+  }
+]
